@@ -1,0 +1,13 @@
+train: ./Toilet.v1i.yolov5pytorch/train/images
+val: ./Toilet.v1i.yolov5pytorch/valid/images
+test: ./Toilet.v1i.yolov5pytorch/test/images
+
+nc: 2
+names: ['toilet', 'towel']
+
+roboflow:
+  workspace: matong
+  project: toilet-zoq42-c0d3v
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/matong/toilet-zoq42-c0d3v/dataset/1
