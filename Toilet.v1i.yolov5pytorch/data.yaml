@@ -3,7 +3,7 @@ val: ./Toilet.v1i.yolov5pytorch/valid/images
 test: ./Toilet.v1i.yolov5pytorch/test/images
 
 nc: 2
-names: ['toilet', 'towel']
+names: ["toilet", "towel"]
 
 roboflow:
   workspace: matong
